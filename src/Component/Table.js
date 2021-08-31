@@ -35,7 +35,6 @@ class Table extends React.Component {
 //  }
  
   render(){
-    this.props.data  = this.props.data.reverse()
     var TableAllData;
     if(  this.props.data  ==null){
       TableAllData="";
